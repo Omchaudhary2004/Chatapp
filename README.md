@@ -21,7 +21,7 @@ This is a React chat application that enables users to chat with each other in r
     Clone this repository:
 
     ```bash
-    git clone <your-git-repository-url>
+    git clone https://github.com/Omchaudhary2004/Chatapp.git
     ```
 
     Navigate to the project directory:
@@ -38,11 +38,12 @@ This is a React chat application that enables users to chat with each other in r
 
 3.  **Configuration:**
 
-    Create a file named `.env` in the project root directory and add the following environment variables:
+    Create a file named `constants.js` in the project src directory and add the following environment variables:
 
     ```
-    COMETCHAT_APP_ID=YOUR_COMETCHAT_APP_ID
-    COMETCHAT_REGION=YOUR_COMETCHAT_REGION (e.g., us)
+    APP_ID: "From Comet Chat"
+    REGION: "in", 
+    AUTH_KEY: "From commet chat"
     ```
 
     Replace the placeholders with your actual CometChat App ID and Region.
@@ -83,7 +84,7 @@ chat-app/
 * `App.js`: The main application component that manages the overall chat app UI and state.
 * `components`: This directory contains reusable React components for different parts of the chat UI (header, chat list, message list, message input, login modal).
 * `hooks`: This directory contains custom React hooks for interacting with CometChat functionalities (e.g., user management, chat list fetching, message sending).
-* `.env`: This file stores sensitive environment variables like CometChat App ID and Region.
+* `constants.js`: This file stores sensitive environment variables like CometChat App ID and Region.
 
 **Deployment**
 
@@ -100,6 +101,4 @@ This is a basic chat application built with CometChat. You can extend it with ad
 * User presence indicators
 * Chat themes and customization
 
-**License**
 
-[Add your license information here, e.g., MIT License]
