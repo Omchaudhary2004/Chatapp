@@ -4,7 +4,7 @@ import { LogIn } from 'lucide-react';
 export const Header = ({ user, onLoginClick, onLogout }) => {
   return (
     <div className="bg-white border-b px-4 py-2 flex justify-between items-center">
-      <h1 className="text-xl font-bold">Chat App</h1>
+      <h1 className="text-xl font-bold">Trade chat</h1>
       <div>
         {user ? (
           <div className="flex items-center gap-2">
