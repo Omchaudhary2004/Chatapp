@@ -112,4 +112,3 @@ vbnet
 Copy
 Edit
 
-Copy and paste the above text directly into your `README.md` file. Let me know if you'd like
